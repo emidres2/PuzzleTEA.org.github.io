@@ -12,6 +12,7 @@ body{
     border-radius: 25px ;
     
 }
+
 #logo{
     max-width: 100%;
     height: auto;
@@ -28,29 +29,6 @@ nav li:hover > ul {
     border-radius: 25px ;
 }
 /*referencia al panel central*/
-.theme1 {
-    background-color: #a7a7a7;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .theme2 {
-    background-color: #a7a7a7;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .theme3 {
-    background-color: #a7a7a7;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .theme4 {
-    background-color: #a7a7a7;
-    padding: 20px;
-    text-align: center;
-  }
   
   h3 {
     font-size: 24px;
@@ -60,6 +38,13 @@ nav li:hover > ul {
   p {
     font-size: 16px;
     line-height: 1.5;
+  }
+  #miDiv {
+    opacity: 0; /* El div inicialmente estará oculto */
+  }
+  .animate__fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 3s; /* Ajusta la duración de la animación a 3 segundos */
   }
 /*referencia al calendario*/
 .calendario{
