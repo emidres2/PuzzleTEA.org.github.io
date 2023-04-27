@@ -39,13 +39,6 @@ nav li:hover > ul {
     font-size: 16px;
     line-height: 1.5;
   }
-  #miDiv {
-    opacity: 0; /* El div inicialmente estará oculto */
-  }
-  .animate__fadeIn {
-    animation-name: fadeIn;
-    animation-duration: 3s; /* Ajusta la duración de la animación a 3 segundos */
-  }
 /*referencia al calendario*/
 .calendario{
     margin-top: 30px;
@@ -57,4 +50,14 @@ nav li:hover > ul {
 #call{
     width: 100%;
     height: 500px;
+}
+
+#miDiv {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  opacity: 0,5;
+  /* Agrega aquí los estilos que desees para el div */
 }
