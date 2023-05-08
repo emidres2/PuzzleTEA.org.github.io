@@ -50,27 +50,3 @@ nav li:hover > ul {
 
 
 
-
-  /*referencia al calendario*/
-.calendario{
-    margin-top: 30px;
-    bottom: 0px;
-}
-#call{
-  a
-    width: 50%;
-    height: 500px;
-}
-
-
-
-
-
-#miDiv {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  opacity: 0,5;
-}

@@ -1,0 +1,8 @@
+/*Referencia a todo el cuerpo y ajustes generales*/
+body{
+    background-color: rgb(56, 56, 56) !important;
+    font-family: 'Indie Flower', cursive !important;
+    font-weight: bolder !important;
+}
+
+/*referencia al recuadro*/
