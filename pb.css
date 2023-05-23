@@ -1,10 +1,4 @@
-/*Referencia a todo el cuerpo y ajustes generales*/
-body{
-    background-color: rgb(56, 56, 56) !important;
-    font-family: 'Indie Flower', cursive !important;
-    font-weight: bolder !important;
-    font-size: x-large !important;
-}
+/* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 	.dropdown-menu li{ position: relative; 	}
 	.nav-item .submenu{ 
@@ -33,50 +27,3 @@ body{
     font-weight: bolder !important;
     font-size: x-large !important;
 }
-
-
-/*referencia al recuadro del logo*/
-.titulo{
-    background-color: rgb(82, 181, 243) !important;
-    border-radius: 25px ;
-    
-}
-
-#logo{
-    max-width: 100%;
-    height: auto;
-}
-
-
-
-/*referencia a la barra de desplegables*/
-nav li:hover > ul {
-  display: block;
-}
-
-
-.busc{
-    background-color: rgb(82, 181, 243) !important;
-    border-radius: 25px ;
-}
-
-
-
-
-
-/*referencia al panel central*/
-  
-  h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-
-
-
-
