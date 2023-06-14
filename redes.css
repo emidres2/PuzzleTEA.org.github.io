@@ -4,6 +4,7 @@ body{
     font-weight: bolder !important;
     font-size: x-large !important;
 }
+
 footer {
     position: fixed;
     left: 0;
@@ -12,4 +13,5 @@ footer {
     background-color: #f8f8f8;
     padding: 20px;
     text-align: center;
+    font-size: xx-small;
   }
